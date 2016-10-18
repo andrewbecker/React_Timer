@@ -6,6 +6,7 @@ const Main = (props) => {
   return (
     <div>
       <Nav/>
+      <p>Main.jsx rendered</p>
       {props.children}
     </div>
   );
